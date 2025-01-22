@@ -3,7 +3,7 @@ import handlers.users
 
 app = Flask(__name__)
 
-app.static_folder = 'static'
+app.static_folder = 'static'`
 
 @app.route("/")
 def index():
